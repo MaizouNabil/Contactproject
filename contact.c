@@ -52,7 +52,7 @@ void menu() {
     printf("*     3 - Supprimer un Contact.                    *\n");
     printf("*     4 - Afficher Tous les Contacts.              *\n");
     printf("*     5 - Rechercher un Contact.                   *\n");
-    printf("*     7 - Quitter.                                 *\n");
+    printf("*     6 - Quitter.                                 *\n");
     printf("*                                                  *\n");
     printf("****************************************************\n");
 }
@@ -221,7 +221,7 @@ int main() {
                 rechercher();
                 break;
             
-            case 7:
+            case 6:
                 printf("Quitter le programme.\n");
                 exit(0);
                 break;
